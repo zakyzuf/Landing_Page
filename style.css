@@ -1,0 +1,238 @@
+html {
+    scroll-behavior: smooth;
+    letter-spacing: 1px;
+}
+body {
+    margin: 0px;
+}
+body #atas {
+    background-image: url(img/bg11.jpeg);
+    font-family: 'Poppins';
+    height: 500px; 
+}
+header ul {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 10px;
+    display: inline;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color:white;
+    border-radius: 20px;
+    font-size: 12px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+    color:#F7B217;
+}
+#home {
+    text-align: center;
+    align-items: center;
+    color: #F7B217;
+}
+#home img {
+    margin-top: 60px;
+    width: 150px;
+    border-radius: 100%;
+}
+#home h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 26px;
+}
+#home p {
+    margin-top: 0px;
+    color: #ffff;
+    margin-bottom: 35px;
+    font-size: 12px;
+}
+#home button {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 60px;
+    font-family: 'Poppins';
+    background-color: #F7B217;
+    color: #ffff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    transition: transform .2s;
+}
+#home button:hover {
+    background-color: #ffff;
+    color: #F7B217;
+}
+#home a {
+    text-decoration: none;
+}
+#about {
+    background-color: #2a2a2a;
+    height: 640px;
+    font-family: 'Noto Sans';
+    color: #fff;
+}
+#about img {
+    margin-top: 100px;
+    margin-left: 140px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 300px;
+    height: 400px;
+    float: left;
+    border: 10px solid #232323;
+}
+#isiabout {
+    padding-top: 76px;
+    padding-right: 110px;
+}
+#isiabout h4 {
+    color: #F7B217;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+#isiabout h2 {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+#isiabout hr {
+    margin: 0px;
+    margin-bottom: 24px;
+    background-color: #F7B217;
+    width: 40px;
+}
+#isiabout p {
+    font-size: 12px;
+}
+#isiabout #kotak td{
+    font-size: 14px;
+}
+#kotak {
+    border: 2px solid #F7B217;
+    margin-top: 40px;
+    margin-left: 480px;
+}
+#kotak table {
+    padding: 20px;
+}
+#kotak table tr {
+    height: 45px;
+}
+#about button {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 60px;
+    font-family: 'Poppins';
+    background-color: #F7B217;
+    color: #ffff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    transition: transform .2s;
+}
+#about button:hover {
+    background-color: #ffff;
+    color: #F7B217;
+}
+#portfolio {
+    color: #fff;
+    background-color: #232323;
+    font-family: 'Fira Sans';
+}
+#portfolio h1 {
+    margin: 0px;
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#portfolio h1 b {
+    color: #F7B217;
+}
+#portfolio h2 {
+    color: #F7B217;
+    text-align: center;
+}
+#portfolio h2 b {
+    color: #fff;
+}
+#portfolio video {
+    width: 80%;
+    margin-left: 10%;
+}
+#porto1 {
+    background-color: #232323;
+    margin-top: -135px;
+}
+#porto2 {
+    background-color: #232323;
+}
+#contact {
+    font-family: 'Lato';
+    height: 500px;
+    background-color: #2a2a2a;
+}
+#contact h1 {
+    color: #FFF;
+    letter-spacing: 1px;
+}
+#contact h1 b {
+    color: #F7B217;
+}
+#contact p {
+    color: #FFF;
+}
+#contact table tr td h1 {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+#contact table tr td input {
+    size: 20px;
+}
+#contact button {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Poppins';
+    background-color: #F7B217;
+    color: #ffff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    transition: transform .2s;
+}
+#contact button:hover {
+    background-color: #ffff;
+    color: #F7B217;
+}
+#contact input {
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid #F7B217;
+    background-color: transparent;
+    color: #ffff;
+    font-size: 14px;
+}
+footer {
+    padding-top: 400px;
+    text-align: center;
+    font-family: 'Noto Sans';
+}
+footer div {
+    display: inline;
+}
+footer a img {
+    margin: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 40px;
+}
+footer a img:hover {
+    transform: scale(1.2); 
+}

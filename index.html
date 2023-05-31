@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaky's Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+</head>
+<body>
+    <div id="atas">
+        <header>
+            <ul>
+                <li><a href="#home" class="active" id="home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#linkporto">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <div id="home">
+            <img src="img/photo1.jpg">
+            <h1>Mochammad Zaky Zamroni</h1>
+            <p>A front-end developer</p>
+            <form action="#about">
+                <button type="submit">About Me</button>
+            </form>
+        </div>
+    </div>
+    <div id="about">
+        <img src="img/photo2.jpg" alt="">
+        <div id="isiabout">
+            <h4>Discover</h4>
+            <h2>About Me</h2>
+            <hr>
+            <p>My name is Mochammad Zaky Zamroni. I am a 3rd semester student at Malang State Polytechnic majoring in Information Technology, D4 Informatics Engineering study program. During my studies, I learned many things such as java programming, websites, databases, etc. I also attended the Vocational School Graduate Academy - Junior Mobile Programmer training by Kominfo.</p>
+            <div id="kotak">
+                <table>
+                    <tr>
+                        <td><b>Name: </b>Mochammad Zaky Zamroni</td>
+                        <td style="padding-left: 60px;"><b>Age: </b>19</td>
+                    </tr>
+                    <tr>
+                        <td><b>Address: </b> Malang, Jawa Timur, Indonesia</td>
+                        <td style="padding-left: 60px;"><b>Language: </b>Indonesian, English, Javanese</td>
+                    </tr>
+                </table>
+            </div>
+            <form action="#portfolio">
+                <button type="submit">Portfolio</button>
+            </form>
+        </div>
+    </div>
+    <div id="portfolio">
+        <h1 id="linkporto"><b>My </b>Portfolio</h1>
+        <table style="padding-bottom: 20px">
+            <tr>
+                <td style="width: 50%;"><div id="porto1">
+                    <h2><b>Parallax Scrolling </b>Effects Page</h2>
+                    <video playsinline autoplay muted loop>
+                        <source src="vid/porto1.mp4" type="video/mp4">
+                    </video>
+                </div></td>
+                <td style="width: 50%;"><div id="porto2">
+                    <h2><b>Mobile Application </b>Register Page</h2>
+                    <video playsinline autoplay muted loop style="width: 30%; margin-left: 35%;">
+                        <source src="vid/porto2.mp4" type="video/mp4">
+                    </video>
+                </div></td>
+            </tr>
+            <tr>
+                <td style="width: 50%;"><div id="porto3">
+                    <h2><b>Hosting Package </b>Options Page</h2>
+                    <video playsinline autoplay muted loop>
+                        <source src="vid/porto3.mp4" type="video/mp4">
+                    </video>
+                </div></td>
+                <td style="width: 50%; padding-top: 70px;">
+                    <h2><b>Practice 1 </b>VSGA JMP</h2>
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); margin-left: 10%;" width="80%" height="350px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FQh0jUmYuO98TI41ePFdl6r%2FPraktik-1%3Fnode-id%3D0%253A1" allowfullscreen></iframe></td>
+            </tr>
+        </table>
+    </div>
+    <div id="contact">
+        <div style="width: 60%; float: left; margin-top: 120px">
+            <h1 style="padding-left: 20%;"><b>Contact </b>Me</h1>
+                <p style="padding-left: 20%; padding-right: 11%;">Questions or concerns? Just fill out the form below and i will get back to you within 24 hours</p>    
+        </div>
+        <div style="width: 40%; float: right; margin-top: 60px;">
+            <form action="" method="get" style="padding-top: 50px"> 
+            <div> 
+                <div class="text-box-in"> 
+                <input type="text" placeholder="First Name" style="margin-right: 10px; margin-top: 10px"> 
+                <input type="text" placeholder="Last Name" style="margin-bottom: 20px"> 
+            </div>
+            <input type="text" placeholder="Phone Number" style="width: 35%; margin-bottom: 20px"><br>
+            <input type="text" placeholder="Questions" style="width: 35%; margin-bottom: 20px"><br>
+            <form action="#">
+                <button type="submit">Submit Now</button>
+            </form>
+            </form>
+        </div>    
+    </div>
+    <footer>
+        <div>
+            <a href="mailto:mochammadzakyz@gmail.com"><img src="img/email.png"></a>
+            <a href="https://github.com/zakyzuf" target="_blank"><img src="img/github.png"></a>
+            <a href="https://www.instagram.com/zakyzamroni_57/" target="_blank"><img src="img/instagram.png"></a>
+            <a href="https://wa.me/628970836076" target="_blank"><img src="img/whatsapp.png"></a>
+        </div>
+        <p>©opyright Moch. Zaky Zamroni</p>
+    </footer>
+</body>
+</html>
